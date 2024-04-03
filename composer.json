@@ -1,0 +1,16 @@
+{
+    "name": "abn/abn_service_sdk",
+    "description": "Package generated from https://abr.business.gov.au//abrxmlsearch/AbrXmlSearch.asmx?WSDL using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ABN\\AbnServiceAPI\\": "./src/ABN/AbnServiceAPI"
+        }
+    }
+}
